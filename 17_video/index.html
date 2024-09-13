@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors MasterClass</title>
+    <style>
+       /* element selector */
+        /* div{background-color: red;} */
+
+        .red{
+            background-color: red;
+        }
+
+        #green{
+            background-color: green;
+        }
+
+        div > p{
+            color: aqua;
+            background-color: aqua;
+        }
+
+        div p{
+            color: blue;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:link{
+            color: yellow;
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a div
+        <p>
+            heloo this is a pragraph and the colour is change with the help of child selector if it is like div then article or span then it not work 
+        </p>
+    </div>
+    hello
+    <div id="green">
+        the second div but we dont need to this content to red also so we use class select
+        <span>
+            <p>
+                this is inside the paragraph and this changes is due to decendent selector
+            </p>
+        </span>
+
+    </div>
+    for all we use astric symbol like we change all of them padding 
+    <div>
+        <a href="https://www.google.com">go to Google .....</a>
+        <a href="https://www.facebook.com">go to Facebook </a>
+    </div>
+   
+
+
+</body>
+</html>
