@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        html{
+            font-size: 14px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+           /* width: 1600px; */
+            width: 100vw;
+            background-color:aquamarine;
+            margin: auto;
+            height: 10vh;
+
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+           /* width: 1600px; */
+            width:  80vw;
+            background-color:rgb(241, 138, 243);
+            margin: 25px auto;
+            height: 80vh;
+            min-height: 50vh;
+        }
+        div p{
+            font-size: 1.5em;
+        }
+        .remexplain {
+            font-size: 1.5rem;
+        }
+        .mycont{
+            background-color:aqua;
+            color: brown;
+            font-size: 19px;
+            width: 100vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is the box
+    </div>
+    <div class="container">
+        this is the container box
+        lorem756 
+        
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate cumque, esse asperiores, quas accusamus doloribus ex ratione, amet voluptatum similique impedit nulla porro exercitationem modi ducimus. Corporis optio minima, tenetur, quos blanditiis magnam expedita enim modi accusamus fuga similique, ut in! Quis nemo animi ullam recusandae. At exercitationem dolore quaerat sint atque qui.
+        </p>
+        
+    </div>
+    <div class="remexplain">
+        <p>
+            rem explain this 
+        </p>
+    </div>
+    <div class="mycont">
+        this is another container to learn vmin and vmax
+    </div>
+</body>
+</html>
