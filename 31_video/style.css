@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(215, 41, 41);
+}
+
+@media screen and (orientation:landscape) {
+    body {
+        border: 2px solid black;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aqua;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+/* @media not|only mediatype and (expression){
+    code;
+} */
+.boxes {
+    display: flex;
+}
+
+.box {
+    background: #8dd429;
+    padding: 3px;
+    margin: 3px;
+    height: 344px;
+    width: 344px;
+}
