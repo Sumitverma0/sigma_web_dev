@@ -1,0 +1,37 @@
+:root{
+    --color:rgba(198, 108, 237, 0.502);    
+    --seccolor:rgb(35, 88, 149);
+    --tricolor:rgb(116, 41, 70);
+    --quadcolor:rgba(156, 54, 54, 0.18);
+    --graycolor:gray;
+}
+body{
+    background-color: var(--graycolor);
+}
+
+.nav button {
+    color: var(--tricolor);
+    background-color: var(--quadcolor);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    padding: 3px 4px 4px ;
+    margin: 3px;
+    font-weight: bold;
+
+}
+.nav button:last-child{
+    position: absolute;
+    right: 45px;
+}
+.last button{
+    align-self: center;
+    background-color: var(--color);
+    position: absolute;
+    right: 50%;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
