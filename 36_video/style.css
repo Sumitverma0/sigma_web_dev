@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+/* :root{
+    --primary-color:rgb(225 35 189 / 89%);
+    --secondary-color:rgb(170, 0, 255);
+    --text-color:white;
+    --background-color:rgba(224, 162, 212, 0.89);
+} */
+
+/* :root{
+    --primary-color:rgb(17, 121, 96);
+    --secondary-color:rgb(170, 0, 255);
+    --text-color:white;
+    --background-color:rgba(185, 223, 165, 0.89);
+} */
+
+:root{
+    --primary-color:rgb(48, 112, 240);
+    --secondary-color:rgb(170, 0, 255);
+    --text-color:white;
+    --background-color:rgba(165, 175, 223, 0.89);
+}
+
+/* their is no limmit of the color combination make your own as you like */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Handlee,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: var(--background-color);
+}
+nav{
+    background-color:var(--primary-color);
+    padding: 12px 0;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bolder;
+
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
