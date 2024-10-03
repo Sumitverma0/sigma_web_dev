@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root{
+    --primary-color:rgb(17, 121, 96);
+    --secondary-color:rgb(170, 0, 255);
+    --text-color:white;
+    --background-color:rgba(185, 223, 165, 0.89);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Handlee,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: var(--background-color);
+}
+header{
+    top: 0;
+    position: sticky;
+}
+nav{
+    background-color:var(--primary-color);
+    padding: 12px 0;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bolder;
+
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.body{
+    background-color: rgb(101, 186, 186);
+    margin:12px 34px;
+}
+.lbox{
+    background-color: aqua;
+    height: 70vh;
+    width: 45%;
+    margin: 12px;
+    display: inline-block;
+}
+.rbox{
+    background-color: blueviolet;
+    height: 70vh;
+    width: 45%;
+    margin: 12px;
+    display: inline-block;
+}
+.text{
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 50px;
+
+}
