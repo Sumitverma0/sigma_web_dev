@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    /* flex-directi0n:column */
+
+    /* JUSTIFY CONTENT CENTER-concept of main axis and cross axis if we want to center then the center about the main axis KEYWORDS main start main end , cross start and cross end , main size and cross size */
+
+    /* if we want the content will overflow we use flex wrap:wrap */
+    /* wrap reverse also */
+    flex-wrap: wrap;
+    align-content: center;
+    /* gap property , row gap, column gap  */
+}
+
+.item {
+    height: 32px;
+    width: 32px;
+    border: 2px solid black;
+    margin: 4px;
+    background-color: violet;
+
+}
+
+.order-1{
+    order:1;
+}
+
+.order-2{
+    order:2;
+}
+
+.order-3{
+    order:3;
+}
+/* more order last appeear */
+
+
+/* flex grow over all width depend on it  */
+
+/* flex shrink */
