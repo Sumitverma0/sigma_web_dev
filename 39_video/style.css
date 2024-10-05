@@ -1,0 +1,25 @@
+.container {
+    width: 80vw;
+    border: 2px solid yellowgreen;
+    display: grid;
+    /* grid-template-columns: [pahela]120px [dusra]100px [t]; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /*we see the grid row and column
+    and also grid track and grid area 
+    grid row no. and column no. the line no. we can write the name as per covinance  */
+    grid-template-rows: 100px 100px 100px ;
+}
+
+.item {
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+.item-4{
+    grid-row: 1/2;
+    grid-column: dusra/t;
+}
+.item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
