@@ -1,0 +1,30 @@
+
+.logo{
+    height: 3px;
+    width: 3px;
+    display: inline-block;
+}
+
+.button but1{
+ padding: 0 117px;
+}
+
+.button{
+    display: flex;
+    display: inline;
+    border: none;
+    padding: 40px 20px ;
+    margin: 120px;
+    margin-right: 1px;
+    margin-left: 120px;
+}
+
+.image{
+    display: inline-block;
+}
+.main{
+    background-color: gray;
+    color: white;
+    padding: 30px 20px ;
+    margin: 120px;
+}
