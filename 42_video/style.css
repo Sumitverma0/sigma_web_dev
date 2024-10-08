@@ -1,0 +1,41 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transform: rotate(40deg); */
+    /* transform: rotate(0.25turn); */
+    /* transform: rotateX(96deg); */
+    
+    /* 1. here x and y is display and z is inside the display so if rotate about the x axis then it will like a thin paper */
+
+    /* transform: scale(1.56);  */
+
+    /* 2. the scale will increase the size it will also done in the particle axis  */
+   
+    /* transform: skew(22deg); */
+    /* 3. the skew will look like the rhombus and like a kite  note it will not done in Z axis */
+
+    /* transform: translate(34px); */
+    /* 4. translate will change the position  */
+    
+    /* transform: rotate(0.125turn);
+    transform-origin: 0 0; */
+    /* 5. here we rotate about the point of the main body like 0 0 or we increase one of them also as per require */
+
+
+    
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}
