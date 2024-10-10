@@ -1,0 +1,71 @@
+.logo img{
+    width: 164px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+
+
+.main h2 {
+    text-align: center;
+    text-decoration: solid;
+
+}
+.main h5 {
+    text-align: center;
+}
+
+.linux{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(38, 142, 183);
+    background-color: rgb(30, 155, 205);
+    color: white;
+    display: inline;
+    position: absolute;
+    right: 95vh;
+    text-decoration: solid;
+}
+.linux:hover{
+    border: 1px solid rgb(8, 122, 167);
+    background-color: rgb(14, 130, 176);
+}
+.afterlin{
+    display: block;
+    position: relative;
+    margin-top: 150px;
+}
+
+.container{
+    width: 70vh;
+    height: auto;
+    display: grid;
+    border: 2px solid gray;
+    grid-template-rows: 100px 100px 100px;
+ 
+
+
+}
+.index{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    background-color: gray;
+    
+}
