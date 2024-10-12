@@ -1,0 +1,56 @@
+.container{
+    background-color: rgb(6, 102, 102);
+    height: 80vh;
+    width: 30vw;
+}
+.box{
+    width: 34px;
+    height: 45px;
+    /* background-color: aqua; */
+
+    /* animation: sumitanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-outcubic-bezier(0.06, 1.27, 0.86, 0.68); */
+
+    /* animation-delay: 1s;
+    animation-direction: reverse;
+     */
+
+     /* animation-play-state: paused; */
+
+     animation: sumitanimation 3s ease-in 1s forwards,
+     sumit2 3s ease-in-out;
+
+}
+
+@keyframes sumitanimation {
+    from{
+        background-color: red;
+        
+    }
+    to{
+        background-color: blueviolet;
+        transform: translateX(1000px);
+    }
+    
+}
+
+@keyframes sumit2 {
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(300deg);
+    }
+    90%{
+        transform: rotate(310deg);
+    }
+    100%{
+        transform: rotate(319deg);
+    }
+    
+}
