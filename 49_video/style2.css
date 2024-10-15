@@ -1,0 +1,19 @@
+.container{
+    height: 488px;
+    width: 466px;
+    border: 2px solid black;
+    background-position: center center;
+    background-image: url(https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+
+    /* if the image is small then the image will repeat in this --> background-image  */
+    background-repeat: no-repeat;
+    /* to remove the repeat we use --> backgrouund-repeat mention above */
+
+    background-clip: border-box;
+    /* this is use to content in the border 
+    another is paddding box is for the content after the padding, content box etc */
+
+
+    /* rest of the property will learn in projects and the self practise */
+}

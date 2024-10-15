@@ -1,0 +1,24 @@
+.container{
+    height: 488px;
+    width: 466px;
+    border: 2px solid black;
+    background-color: azure;
+}
+img{
+    width: 466px;
+    height: 488px;
+    /* the below object-fit is for the above width and height mention this will fit the image in the ratio means it will cut the ramaining portion of the image */
+
+    /* object-fit: cover; */
+    object-fit: cover;
+    object-position: top right;
+    /* another way to write is 
+    object-position: 10px 20px  space te image 10 and 20px */
+    
+    /* the cover property another feature is we want to cut the specific portion to show we will mention by the help of object position   */
+
+    /* #by default propery is object-fit:fill; */
+
+    /* object-fit: contain; */
+    /* the contain property will be show the full image and left the remaining portion of the container */
+}
