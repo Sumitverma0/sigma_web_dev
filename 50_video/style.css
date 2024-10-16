@@ -1,0 +1,15 @@
+.img1{
+    filter: brightness(90%) contrast(180%);
+}
+
+.img2{
+    filter: grayscale(100%);
+}
+
+.img3{
+    filter: sepia(100%);
+}
+
+/* invert filter --> change the color of the image negative color like old movies
+opacity filter--> use to low the color like use to show backwords 
+ */
