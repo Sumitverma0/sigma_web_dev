@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model in JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+        </div>
+    </div>
+    <!-- mapping of the entire document in a object 
+    in this it will represent in tree like structure 
+ it is also use to inject the inline css
+ and also it is used to change the element(say's  doc) -->
+    <!-- another is bom-> browser object model 
+ like select and inspect then the doler $0 is the element is select then we change the color of that -->
+    <script>
+        document.title = "sumit verma "
+        console.log(document.title)
+        console.log(document.body)
+        document.body.style.backgroundColor = "green"
+    </script>
+</body>
+
+</html>
