@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14 solution </title>
+    <style>
+        body {
+            background-color: green;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <!-- create a hacking simulator which has green background and it shows these message with random delay to one to seven seconds
+
+
+     Initializing Hacking....
+     reading your files....
+     password files detected....
+     sending all pasword and personal files to server... 
+     cleaning up...
+
+     the three dots must blink so that it look like a real terminal 
+      -->
+    <script>
+
+        const addItem = async (item) => {
+            await randomdelay();
+            let div = document.createElement("div");
+            div.innerHTML = item;
+            document.body.append(div)
+        }
+
+        const randomdelay = () => {
+            return new Promise((resolve, reject) => {
+                timeout = 1 + 6 * Math.random()
+                setTimeout(() => {
+                    resolve()
+                }, timeout * 1000);
+            })
+        }
+
+
+        async function main() {
+
+            setInterval(() => {
+                let last = document.body.lastElementChild
+                if (last.innerHTML.endsWith("...")){
+                    last.innerHTML= last.innerHTML.slice (0,last.innerHTML.length-3)
+                }
+                else{
+                    last.innerHTML = last.innerHTML+"."
+                }
+            }, 100);
+
+            let text = [
+                "Initializing Hacking",
+                "reading your files",
+                "password files detected",
+                "sending all pasword and personal files to server",
+                "cleaning up"]
+            for (const item of text) {
+                await addItem(item)
+            }
+            await randomdelay()
+            clearInterval(t)
+        }
+        main()
+    </script>
+</body>
+
+</html>
